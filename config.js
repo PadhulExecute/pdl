@@ -4,14 +4,14 @@ global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Change/add own
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 //====== Needed in plugin/update.js ======//
-global.repox = 'raselcomel/RxR-Bot'
+global.repox = 'dhull botz'
 global.branx = 'master'
 //=========== Watermark & Url ==========//
-global.wm = '© rཽᴀˢᵉˡ'
-global.wmtitle = '🌹 𝑪𝒐𝒎𝒆𝒍⋆𝑩𝒐𝒕 ⚚'
-global.wmbody = '🍃 𝑏𝑦 ༆ 𝑟𝑎𝑠𝑒𝑙  ཽ ྀ ྭ ྱ ྲ ཻ' 
-global.wmlink = 'https://www.instagram.com/rasel.ganz'
-global.linkgc = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
+global.wm = '© dhull Botz
+global.wmtitle = 'dhull botz'
+global.wmbody = 'dhull botz ཽ ྀ ྭ ྱ ྲ ཻ' 
+global.wmlink = 'https://www.instagram.com/syefadhil'
+global.linkgc = 'https://chat.whatsapp.com/CUCsW6BLJwJgPQIaKM'
 global.linkmed = 'https://www.instagram.com/p/CH1A1c9J5pY/?utm_medium=copy_link'
 
 //=========== Process Bot ============//
@@ -23,7 +23,7 @@ global.dTux = 'WEBSITE'
 global.uRlx = 'bit.ly/AcellComel' //''
 //========= Call Template Button =========//
 global.dTcx = 'Add Me'
-global.nUmx = '+62 822-5604-8971' 
+global.nUmx = '6285600204672' 
 //================ Buttons ================//
 global.bTnx = [['DASHBOARD', '.say blum pasang:v']] //buttons map
 global.mediaMenu = 'https://telegra.ph/file/505b2a03d98bb3b8680e7.jpg'
@@ -55,7 +55,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = '               ig\n🔥 @rasel.ganz 🔥'
+  var sticker_author = '               ig\n🔥 @dhul.ganz 🔥'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
